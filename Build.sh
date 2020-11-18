@@ -57,3 +57,12 @@ curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compo
 chmod +x /usr/local/bin/docker-compose
 apt install docker-compose -y
 usermod -aG docker $USER
+
+# install NodeJS
+
+apt install nodejs
+node –version
+apt install npm
+npm –version
+apt-get update
+apt-get upgrade 
